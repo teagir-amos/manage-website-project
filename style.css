@@ -522,6 +522,11 @@ padding-top: 6rem;
         flex-direction: column;
         gap: 1rem;
     }
+    .logosocials .social-links{
+    color: white;
+    gap: 1rem;
+    display: flex;
+}
     .footer .links1{
         padding-top: 1rem;
     }
