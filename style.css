@@ -494,6 +494,11 @@ padding-top: 6rem;
         height: 200px;
         margin-top: 2rem;
     }
+    .simplify .heading7 h1{
+   color: #fff;
+   font-size: x-large;
+   width: 300px;
+}
     .container3 .next{
         display: contents;
     }
