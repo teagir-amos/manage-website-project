@@ -440,8 +440,10 @@ padding-top: 6rem;
     }
     nav .options{
         display: block;
-        color: hsl(228, 12%, 13%);
     }
+    nav .options i{
+        color: hsl(228, 12%, 13%);
+        }
     nav .start1{
         display: none;
     }
@@ -524,7 +526,7 @@ padding-top: 6rem;
     }
     .logosocials .social-links i{
     color: white;
-    gap: 1rem;
+    gap: 2rem;
     display: flex;
 }
     .footer .links1{
