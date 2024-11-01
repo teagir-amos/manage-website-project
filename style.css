@@ -458,6 +458,9 @@ padding-top: 6rem;
         display: flex;
         flex-direction: column;
     }
+    .container2 .reasons{
+        width:200px;
+    }
     .progress .why{
         background-color: hsl(13, 100%, 96%);
     }
