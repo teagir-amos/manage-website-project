@@ -496,7 +496,8 @@ padding-top: 6rem;
     }
     .simplify .heading7 h1{
        color: #fff;
-       font-size: large;
+        display: flex;
+       font-size: x-large;
        width: 300px;
         margin-right:10px;
         margin-left: 10px
