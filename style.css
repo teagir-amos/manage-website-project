@@ -454,12 +454,13 @@ padding-top: 6rem;
         display: flex;
         justify-content: center;
     }
+    .container1 .illustration img{
+    height:350px;
+    width:350px;
+}
     .container2{
         display: flex;
         flex-direction: column;
-    }
-    .container2 .reasons{
-        width:200px;
     }
     .progress .why{
         background-color: hsl(13, 100%, 96%);
