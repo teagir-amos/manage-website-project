@@ -475,6 +475,7 @@ padding-top: 6rem;
     .container1 .illustration img{
         height:280px;
         width:300px;
+        padding-top: 30px;
     }
     .container1 .invite2{
         display: flex;
