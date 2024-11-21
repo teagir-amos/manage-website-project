@@ -14,6 +14,8 @@ nav{
     width: 100%;
     padding-top: 20px;
     overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 nav.bgColor{
     background-color: hsl(12, 88%, 59%);
@@ -469,6 +471,10 @@ padding-top: 6rem;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
+    }
+    .container1 .illustration img{
+        height:280px;
+        width:300px;
     }
     .container1 .invite2{
         display: flex;
