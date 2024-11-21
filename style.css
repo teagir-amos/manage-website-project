@@ -1,0 +1,544 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./background.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-position-y: bottom left ;
+}
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding-top: 20px;
+    overflow: hidden;
+}
+nav.bgColor{
+    background-color: hsl(12, 88%, 59%);
+}
+nav .logo{
+    padding-right: 3rem;
+}
+nav .links{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+    z-index: 10;
+}
+nav .links a{
+    text-decoration: none;
+    color: hsl(228, 29%, 33%);
+    font-weight: 300;
+}
+nav .links a:hover{
+    cursor: pointer;
+    color:hsl(227, 12%, 61%);
+}
+nav .start1{
+    background-color: hsl(12, 88%, 59%);
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 98%);
+}
+nav .start1:hover{
+    cursor: pointer;
+    background-color: hsl(13, 100%, 96%);
+    color: hsl(227, 12%, 61%);
+}
+nav .options{
+    display: none;
+}
+nav .cancel{
+    display: none;
+}
+.container1{
+    display: flex;
+    padding-top: 5rem;
+}
+.container1 .assemble{
+    width: 280px;
+}
+.assemble .heading1{
+    color: hsl(228, 29%, 33%);
+    font-size: large;
+    padding-bottom: 20px;
+}
+.assemble .description1{
+    padding-bottom: 20px;
+}
+.assemble .description1 p{
+    color: hsl(227, 12%, 61%)
+}
+.assemble .start1{
+    background-color: hsl(12, 88%, 59%);
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 98%);
+}
+.assemble .start1:hover{
+    cursor: pointer;
+    background-color: hsl(13, 100%, 96%);
+    color: hsl(227, 12%, 61%);
+}
+.container1 .illustration img{
+    height:350px;
+    width:400px;
+}
+.container2{
+    display: flex;
+    padding-top: 30px;
+}
+.container2 .difference{
+    width: 300px;
+}
+.container2 .heading2{
+    color: hsl(228, 29%, 33%);
+    font-size: larger;
+}
+.container2 .description2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container2 .description2 p{
+    color: hsl(228, 29%, 33%);
+}
+.container2 .reasons{
+    width:380px
+}
+.reasons .progress{
+    padding-bottom: 30px;
+}
+.why .num{
+    background-color: hsl(12, 88%, 59%);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: hsl(0, 0%, 98%);
+    border-radius: 5px;
+}
+.why .heading3{
+    padding-left: 1rem;
+    color: hsl(228, 29%, 33%);
+    font-size: small;
+    font-weight: bold;
+}
+.reasons .description3{
+    padding-top: 20px;
+}
+.reasons .description3 p{
+    color: hsl(227, 12%, 61%);
+}
+.track .num{
+    background-color: hsl(12, 88%, 59%);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: hsl(0, 0%, 98%);
+    border-radius: 5px;
+}.track .heading4{
+    padding-left: 1rem;
+    color: hsl(228, 29%, 33%);
+    font-size: small;
+    font-weight: bold;
+}
+.reasons .description4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.reasons .description4 p{
+    color: hsl(227, 12%, 61%);
+}
+.neat .num{
+    background-color: hsl(12, 88%, 59%);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: hsl(0, 0%, 98%);
+    border-radius: 5px;
+}
+.neat .heading5{
+    padding-left: 1rem;
+    color: hsl(228, 29%, 33%);
+    font-size: small;
+    font-weight: bold;
+}
+.reasons .description5{
+    padding-top: 20px;
+}
+.reasons .description5 p{
+    color: hsl(227, 12%, 61%);
+}
+.container3{
+padding-top: 6rem;
+}
+.container3 .heading6{
+    display: flex;
+    justify-content: center;
+}
+.container3 .heading6 h1{
+    color: hsl(228, 29%, 33%);
+} 
+.container3 .testimonials-swiper{
+    display: flex;
+
+}
+.testimonials-swiper .testimonials-content{
+    background-color: blueviolet;
+}
+.testimonials-content .swiper-wrapper{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+.swiper-wrapper .box1-swiper-slide{
+    background-color:hsl(0, 0%, 98%);
+    padding-left: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.box1-swiper-slide .Anisha{
+    display: flex;
+}
+.box1-swiper-slide .Anisha img{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+.box1-swiper-slide .name1{
+    color: hsl(228, 29%, 33%);
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    display: flex;
+    justify-content: center;
+}
+.box1-swiper-slide .name1{
+    display: flex;
+    justify-content: center;
+}
+.box1-swiper-slide .testimony1{
+    padding-bottom: 10px;
+}
+.box1-swiper-slide .testimony1 P{
+    color: hsl(227, 12%, 61%);
+}
+.swiper-wrapper .box2-swiper-slide{
+    background-color:hsl(0, 0%, 98%);
+    padding-left: 10px;
+}
+.box2-swiper-slide .Ali img{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+.box2-swiper-slide .name2{
+    color: hsl(228, 29%, 33%);
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    display: flex;
+    justify-content: center;
+}
+.box2-swiper-slide .name2{
+    display: flex;
+    justify-content: center;
+}
+.box2-swiper-slide .testimony2{
+    padding-bottom: 10px;
+}
+.box2-swiper-slide .testimony2 P{
+    color: hsl(227, 12%, 61%);
+}
+.swiper-wrapper .box3-swiper-slide{
+    background-color:hsl(0, 0%, 98%);
+    padding-left: 10px;
+}
+.box3-swiper-slide .Richard img{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.box3-swiper-slide .name3{
+    color: hsl(228, 29%, 33%);
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    display: flex;
+    justify-content: center;
+}
+.box3-swiper-slide .name3{
+    display: flex;
+    justify-content: center;
+}
+.box3-swiper-slide .testimony3{
+    padding-bottom: 10px;
+}
+.box3-swiper-slide .testimony3 P{
+    color: hsl(227, 12%, 61%);
+}
+.swiper-wrapper .box4-swiper-slide{
+    background-color:hsl(0, 0%, 98%);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.box4-swiper-slide .Shanai img{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+.box4-swiper-slide .name4{
+    color: hsl(228, 29%, 33%);
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    display: flex;
+    justify-content: center;
+}
+.box4-swiper-slide .name4{
+    display: flex;
+    justify-content: center;
+}
+.box4-swiper-slide .testimony4{
+    padding-bottom: 10px;
+}
+.box4-swiper-slide .testimony4 P{
+    color: hsl(227, 12%, 61%);
+}
+
+.container3 .next{
+    display: none;
+}
+.container3 .invite3{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.container3 .start1{
+    background-color: hsl(12, 88%, 59%);
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 98%);
+}
+.container3 .start1:hover{
+    cursor: pointer;
+    background-color: hsl(13, 100%, 96%);
+    color: hsl(227, 12%, 61%);
+}
+.container3 .simplify{
+    background-color: hsl(12, 88%, 59%);
+    margin-top: 7rem;
+    height: 150px;
+    display: flex;
+}
+.simplify .heading7 h1{
+   color: #fff;
+   font-size: xx-large;
+   width: 350px;
+}
+.simplify .start2{
+    background-color: hsl(0, 0%, 98%);
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    color: hsl(12, 88%, 59%)
+}
+.simplify .start2:hover{
+    cursor: pointer;
+    background-color: hsl(13, 100%, 96%);
+    color: hsl(227, 12%, 61%);
+}
+.footer{
+    background-color: hsl(228, 12%, 13%);
+    height: fit-content;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .invite5{
+    background-color: hsl(12, 88%, 59%);
+    color: hsl(0, 1%, 55%);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+}
+#Go{
+    padding-top: 7px;
+}
+.footer .invite5:hover{
+    cursor: pointer;
+    background-color: hsl(13, 100%, 96%);
+    color: hsl(227, 12%, 61%);
+}
+.footer .logosocials{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.logosocials .social-links{
+    color: white;
+    gap: 1rem;
+    display: flex;
+}
+.logosocials .social-links i:hover{
+    color: hsl(12, 88%, 59%);
+    cursor: pointer;
+}
+.footer .links1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: none;
+    gap: 1.5rem;
+}
+.footer .links1 a:hover{
+    cursor: pointer;
+    color: hsl(12, 88%, 59%);
+}
+.footer .links1 a{
+    text-decoration: none;
+    color: white;
+}
+.footer .emailcopyright{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+ .emailbtn .Email{
+    display: flex;
+}
+#email-field{
+    height: 30px;
+    border-radius: 5px;
+}
+#email-error{
+    padding: 3px;
+    padding-bottom: 3px;
+}
+.footer .copyright i{
+    color: white;
+}
+.footer .copyright{
+    color: #fff;
+}
+
+@media only screen and (max-width:400px){
+    .nav{
+        display: flex;
+        position: fixed;
+    }
+    nav .links{
+        display: none;
+        position: fixed;
+        z-index: 9;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        right: 0;
+        top: 0;
+        align-items: center;
+        background-color: hsl(13, 100%, 96%);
+        transition: 0.5s ease-in-out;
+    }
+    nav .cancel{
+        z-index: 9;
+    }
+    nav .cancel .i{
+        color: hsl(228, 29%, 33%);
+    }
+    nav .links a{
+        display: block;
+    }
+    nav .options{
+        display: block;
+        color: hsl(228, 12%, 13%);
+    }
+    nav .start1{
+        display: none;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .container1 .invite2{
+        display: flex;
+        justify-content: center;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+    }
+    .container2 .reasons{
+        width:200px
+    }
+    .progress .why{
+        background-color: hsl(13, 100%, 96%);
+    }
+    .advanced .track{
+        background-color: hsl(13, 100%, 96%);
+    }
+    .organised .neat{
+        background-color: hsl(13, 100%, 96%);
+    }
+    .testimonials-content .swiper-wrapper{
+        display: flex;
+        overflow: hidden;
+    }
+    .swiper-wrapper .box1-swiper-slide{
+        display: none;
+    }
+    .swiper-wrapper .box3-swiper-slide{
+        display: none;
+    }
+    .swiper-wrapper .box4-swiper-slide{
+        display: none;
+    }
+    .container3 .simplify{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin-top: 2rem;
+    }
+    .container3 .next{
+        display: contents;
+    }
+    .next .navigation{
+        display: inline-block;
+        padding-left: 10rem;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .logosocials{
+        margin-top: 1rem;
+    }
+    .footer .logosocials{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .footer .links1{
+        padding-top: 1rem;
+    }
+    .footer .emailcopyright{
+        padding-top: 1rem;
+        gap: 1rem;
+    }
+    .footer .copyright{
+        padding-bottom: 20px;
+    }
+
+}
+
+
