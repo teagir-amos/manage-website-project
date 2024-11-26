@@ -518,6 +518,7 @@ padding-top: 6rem;
         flex-direction: column;
         height: 200px;
         margin-top: 2rem;
+        width: 100%;
     }
     .container3 .next{
         display: contents;
@@ -529,6 +530,7 @@ padding-top: 6rem;
     .footer{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .footer .logosocials{
         margin-top: 1rem;
