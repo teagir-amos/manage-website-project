@@ -666,3 +666,66 @@ padding-top: 6rem;
         padding-left: 22rem;
     }
 }
+@media screen and (min-width: 600px) and (max-width: 800px){
+    nav .links{
+        display: none;
+        position: fixed;
+        z-index: 9;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        right: 0;
+        top: 0;
+        align-items: center;
+        background-color: hsl(13, 100%, 96%);
+        transition: 0.5s ease-in-out;
+    }
+    nav .cancel{
+        z-index: 9;
+    }
+    nav .cancel .i{
+        color: hsl(228, 29%, 33%);
+    }
+    nav .links a{
+        display: block;
+    }
+    nav .options{
+        display: block;
+        color: hsl(228, 12%, 13%);
+        padding-right: 30px;
+    }
+    nav .start1{
+        display: none;
+    }
+    .testimonials-content .swiper-wrapper{
+        display: flex;
+        overflow: hidden;
+        position: relative;
+    }
+    .swiper-wrapper .box1-swiper-slide{
+         display: none;
+    }
+    .swiper-wrapper .box2-swiper-slide{
+        display: block;
+    }
+    .swiper-wrapper .box3-swiper-slide{
+        display: none;
+    }
+    .swiper-wrapper .box4-swiper-slide{
+        display: none;
+    }
+    .container3 .simplify{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin-top: 2rem;
+    }
+    .container3 .next{
+        display: contents;
+    }
+    .next .navigation{
+        display: inline-block;
+        padding-left: 26rem;
+    }
+}
+
